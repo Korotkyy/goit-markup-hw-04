@@ -126,7 +126,7 @@ border-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .hiro-section {
-    width: auto;
+    width: 1440px;
     background-color: var(--background-hiro);
     padding-top: 188px;
     padding-bottom: 188px;
@@ -134,7 +134,7 @@ border-color: transparent;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1\ \(1\).jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1440px;
+    background-size: cover;
     margin: auto;
 }
 
@@ -176,7 +176,6 @@ letter-spacing: 0.02em;
 color: var(--white-text);
 text-align: center;
 margin-bottom: 16px;
-margin-right: 72px;
 text-align: justify;
 }
 
@@ -603,9 +602,14 @@ margin-top: 72px;
 }
 .option-link {
     display: block;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .option-link:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.option-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    outline: transparent;
 }
 .pre-post {
     padding-top: 32px;
@@ -648,10 +652,9 @@ border-color: transparent;
   .btn:focus {
     background-color: #4D5AE5;
     color: #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-border: 1px solid #E7E9FC;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 outline: transparent;
+border-color: transparent;
   }
 
 a {
