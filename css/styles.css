@@ -235,15 +235,23 @@ text-align: center;
     color: #404BBF;
     border-color: transparent;
 }
+
+.header-item:focus {
+    text-decoration: none;
+    color: #404BBF;
+    border-color: transparent;
+    outline: transparent;
+}
+
 .header-link:focus {
     color: #4D5AE5;
     text-decoration: none;
-    border: 1px solid #E7E9FC;
+    outline: transparent;
 }
 .header-link:hover {
     color: #4D5AE5;
     text-decoration: none;
-    border: transparent
+    border: transparent;
 }
 .header-contacts {
     display: flex;
